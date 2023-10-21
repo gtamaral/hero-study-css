@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    line-height: 1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    /* background-color: bisque; */
+    height: 100vh;
+
+    position: relative;
+
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url(cbjsing.jpg);
+    background-size: cover;
+    color:#fff
+}
+
+nav {
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 28px;
+
+    /* background-color: #e67e22; */
+}
+
+.header-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* in relation to PARENT size*/
+    transform: translate(-50%, -50%);
+
+    /* background-color: aqua; */
+
+    /* text-align: center; */
+}
+
+.header-container-inner {
+    width: 50%;
+    /* background-color: blue; */
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e62222;
+    color: #fff;
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+
+}
+
+span {
+    color: #e62222;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 48px;
+}
+
+section {
+    padding: 96px 0;
+    /* background-color: #f7f7f7; */
+}
